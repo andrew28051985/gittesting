@@ -13,14 +13,14 @@ h1 {
 	background-color: #afafaf;
 	text-align: center;
 }
-.wrapper-nav {
+.wrapper-nav-right {
 	background-color: #efefef;
 	padding-left: 25px;	
 	font-family: sans-serif;
 	display: flex;
 	justify-content: flex-start;
 }
-.wrapper-nav a {
+.wrapper-nav-right a {
 	text-decoration: none;
 	color: brown;
 }
