@@ -6,5 +6,34 @@ p {
   color: brown;
 }
 h1 {
+	margin: 0;
   color: blue;
+}
+.header {
+	background-color: #afafaf;
+	text-align: center;
+}
+.wrapper-nav {
+	background-color: #efefef;
+	padding-left: 25px;	
+	font-family: sans-serif;
+	display: flex;
+	justify-content: flex-start;
+}
+.wrapper-nav a {
+	text-decoration: none;
+	color: brown;
+}
+.nav {	
+	display: flex;
+	justify-content: flex-start;
+}
+.nav::after {
+	display: block;
+	content: "/";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.before {
+	
 }
