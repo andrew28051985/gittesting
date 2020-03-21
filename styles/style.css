@@ -1,17 +1,29 @@
-body {
+body, h1 {
   margin: 0;
   font-size: 16px;
 }
 p {
   color: brown;
 }
-h1 {
-	margin: 0;
-  color: blue;
+h1 {  
+  display: block;
+  position: absolute;
+  left: calc(50% - 300px);
+  top: calc(50% - 18px);
+  color: #fff;
+  font-size: 35px;
 }
 .header {
-	background-color: #afafaf;
+	position: relative;
 	text-align: center;
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	height: 200px;
 }
 .wrapper-nav-right {
 	background-color: #efefef;
